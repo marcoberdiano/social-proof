@@ -15,8 +15,8 @@ const SocialHero = () => {
                 </div>
                 <div className="social-hero-right">
                     <Rating text='Rated 5 Stars in Reviews'/>
-                    <span className="rating1"><Rating text='Rated 5 Stars in Report Guru'/></span>
-                    <span className="rating2"><Rating text='Rated 5 Stars in BestTech'/></span>
+                    <div className="rating1"><Rating text='Rated 5 Stars in Report Guru'/></div>
+                    <div className="rating2"><Rating text='Rated 5 Stars in BestTech'/></div>
                 </div>
             </div>
 

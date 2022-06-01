@@ -4,9 +4,9 @@ import SocialHero from './SocialHero';
 function App() {
   return (
     <main className="App">
-        <img className='imgbgtop' src={imgBgTop} />
+        <img className='imgbgtop' src={imgBgTop} alt='img top'/>
         <SocialHero/>
-        <img className='imgbgbottom' src={imgBgBottom} />
+        <img className='imgbgbottom' src={imgBgBottom} alt='img bottom'/>
     </main>
   );
 }
