@@ -1,0 +1,40 @@
+.card-container {
+    background-color: $VeryDarkMagenta;
+    border-radius: 10px;
+    width: 17em;
+    padding: 1.2em;
+
+    .card-head {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 1em;
+
+        .name {
+            font-size: 1em;
+            color: $White;
+            margin: 0.2em 0em;
+        }   
+
+        .status {
+            color: $SoftPink;
+        }
+
+        .avatar {
+            border-radius: 50%;
+            width: 50px;
+        }
+
+    }
+
+    .card-body {
+        margin: 0.6em 0px;
+
+        .comment {
+            text-align: center;
+            color: $LightGrayishMagenta;
+            line-height: 1.2em;
+            font-size: 0.9em;
+        }
+    }
+}

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+.card-container {
+  background-color: hsl(300deg, 43%, 22%);
+  border-radius: 10px;
+  width: 17em;
+  padding: 1.2em;
+}
+.card-container .card-head {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1em;
+}
+.card-container .card-head .name {
+  font-size: 1em;
+  color: hsl(0deg, 0%, 100%);
+  margin: 0.2em 0em;
+}
+.card-container .card-head .status {
+  color: hsl(333deg, 80%, 67%);
+}
+.card-container .card-head .avatar {
+  border-radius: 50%;
+  width: 50px;
+}
+.card-container .card-body {
+  margin: 0.6em 0px;
+}
+.card-container .card-body .comment {
+  text-align: center;
+  color: hsl(300deg, 24%, 96%);
+  line-height: 1.2em;
+  font-size: 0.9em;
+}
+
+.rating-container {
+  background-color: hsl(300deg, 24%, 96%);
+  border-radius: 8px;
+  width: 24em;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  align-items: center;
+  padding: 1em;
+  color: hsl(300deg, 43%, 22%);
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1100px) {
+  .rating-container {
+    width: 17em;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.social-hero-container {
+  width: 60em;
+}
+.social-hero-container .row1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.social-hero-container .row1 .social-hero-left {
+  width: 25em;
+}
+.social-hero-container .row1 .social-hero-left .title {
+  font-size: 3em;
+  margin: 0.9em 0em;
+  color: hsl(300deg, 43%, 22%);
+}
+.social-hero-container .row1 .social-hero-left .subtitle {
+  line-height: 1.2em;
+  color: hsl(303deg, 10%, 53%);
+}
+.social-hero-container .row1 .social-hero-right {
+  width: 27em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.social-hero-container .row1 .social-hero-right .rating1 {
+  margin-left: 50px;
+}
+.social-hero-container .row1 .social-hero-right .rating2 {
+  margin-left: 100px;
+}
+.social-hero-container .row2 {
+  margin: 1.2em 0em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.social-hero-container .row2 .card1 {
+  margin-top: 50px;
+}
+.social-hero-container .row2 .card2 {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .social-hero-container {
+    text-align: center;
+    margin-top: 40em;
+    width: 17em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+  }
+  .social-hero-container .row1 {
+    flex-direction: column;
+  }
+  .social-hero-container .row1 .social-hero-left {
+    width: 17em;
+  }
+  .social-hero-container .row1 .social-hero-right {
+    margin-top: 3em;
+    width: 100%;
+  }
+  .social-hero-container .row1 .social-hero-right .rating1 {
+    margin-left: 0px;
+  }
+  .social-hero-container .row1 .social-hero-right .rating2 {
+    margin-left: 0px;
+  }
+  .social-hero-container .row2 {
+    width: 17em;
+    flex-direction: column;
+  }
+  .social-hero-container .row2 .card1 {
+    margin-top: 10px;
+  }
+  .social-hero-container .row2 .card2 {
+    margin-top: 10px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(0deg, 0%, 100%);
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.imgbgbottom {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.imgbgtop {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=index.css.map */
